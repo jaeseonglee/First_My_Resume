@@ -119,7 +119,7 @@ private void calculate (double n) {
 
 - [Digital_image_processing_final_project](https://github.com/jaeseonglee/2-1-Digital-Image-Processing/blob/master/Final_Project/main.cpp)
 
-위 링크의 코드는 opencv를 응용하기 때문에 opencv를 먼저 설치한 후 실행이 가능합니다.
+위 링크의 코드는 opencv를 응용하기 때문에 `opencv`를 먼저 설치한 후 실행이 가능합니다.
 
 프로그램을 요약하면 주어진 사진을 먼저 보여주고 그 사진을 분할합니다.
 
@@ -151,13 +151,23 @@ void devideImage(Mat img, int num) {		// 영상이 저장된 img와 사용자가
 
 그 대신에 난장판인 코드라도 주석을 통해 확인할 수 있도록, 주석을 쓰는 습관을 들이게 되는 결정적인 프로젝트였습니다. 
 
-### 3_1 윈프
+### 3_1 window programming(C#)
 ---
+![alt text](Window_programming.png)
 
+- [Ghost_Leg_Game](https://github.com/jaeseonglee/3-1-Csharp/tree/master/CS_final_project/20165153/Ghost_Leg_Game/Game_Action.cs)
 
-### 3_2 system programming, 그리고 현재.
+3학년이 되면서 linux 운영체제를 배우고, 또 다른 언어들과 이론들을 배웠습니다.
+
+위는 C#을 활용한 윈도우 프로그래밍 강의에서 했던 사다리 타기 게임 구현입니다.
+
+나름 정성들이고 열심히 했지만 tab키와 같은 입력에서는 오류가 있는게 아쉬운 프로젝트였습니다.
+
+그래도 당연한 얘기겠지만 저학년때 비해서는 많이 실력이 늘었다고 생각합니다.
+
+### 3_2 지금.
 ---
-d
+현재는 
 
 ### 
 ---
