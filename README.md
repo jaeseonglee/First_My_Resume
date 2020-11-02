@@ -42,7 +42,13 @@
 
 ### 1_1 python turtle image
 ---
+![alt text](Python_turtle_image.png)
 
+- [1_1_python](https://github.com/jaeseonglee/1_1_python)
+
+2016년 1학년, python을 배우며 turtle 모듈을 통해 여러 그림을 그렷던 프로젝트입니다.
+
+링크를 통해 코드를 보면 1학년때라 그런지 주석도 없고 수정 사항이 몇몇 보이긴 하지만 당시엔 코드를 통해 무언가 결과를 도출해내는 성취감에 만족하면서 진행했었습니다.
 
 
 
