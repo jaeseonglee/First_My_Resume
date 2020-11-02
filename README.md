@@ -111,9 +111,48 @@ private void calculate (double n) {
 	}
 ```
 
-### 2_1 image processing(+opencv)
+### 2_1 Digital image processing(+opencv, C++)
 ---
-군대 전역 후, 과거 코드들을 보면서 스스로의 단점을 보완하고자 마음먹었던 2학년입니다. 하지만 마음먹은 대로 일이 이뤄지지 않는 법이죠  :laughing:
+군대 전역 후, 과거 코드들을 보면서 스스로의 단점을 보완하고자 마음먹었던 2학년입니다. 하지만 마음먹은 대로 일이 이뤄지지 않더라구요 :laughing:
+
+![alt text](digital_image_processing.png)
+
+- [Digital_image_processing_final_project](https://github.com/jaeseonglee/2-1-Digital-Image-Processing/blob/master/Final_Project/main.cpp)
+
+위 링크의 코드는 opencv를 응용하기 때문에 opencv를 먼저 설치한 후 실행이 가능합니다.
+
+프로그램을 요약하면 주어진 사진을 먼저 보여주고 그 사진을 분할합니다.
+
+다시 분할 화면에 대해서 영상처리기법을 적용해 보여주고 원래 어떤 위치에 있었는지 맞추는 프로그램입니다.
+
+복학한 후 C언어를 배우는 단계인데, C++ 언어가 선수과목으로 요구되는 영상처리 프로그래밍의 기말 프로젝트입니다. ~~수강신청 실패사례~~
+
+그래서 코드를 보시면 cpp 파일인데도 cin,cout대신 printf(),scanf()함수가 쓰이는 것을 확인할 수 있는데, 덕분에 C++이 C를 지원해주는 것을 알 수 있었고 정말 고맙다고 느꼈습니다.
+
+```c++
+void devideImage(Mat img, int num) {		// 영상이 저장된 img와 사용자가 입력한 정수 num을 매개변수로 갖는다.
+	int i, j;								// 반복문에서 사용할 변수
+	for (i = 1; i < num; i++) {			// 영상을 분할할 직선을 그리기 위해 얼만큼 분할할지에 대한 반복문
+		for (j = 1; j < num; j++) {
+			line(img, cvPoint(img.cols / num * i, 0), cvPoint(img.cols / num * i, img.rows), CvScalar(100, 200, 100), 2);
+			line(img, cvPoint(0, img.rows / num * j), cvPoint(img.cols, img.rows / num * j), CvScalar(100, 200, 100), 2);
+		
+			/*	line(이미지,X,Y,색상,직선의 크기)
+				line함수를 통해 X에서 부터 Y까지 어떤 색상으로 어떤크기만큼 직선을 그린다.
+				cvPoint함수를 통해 위치를 지정해주고, 영상의 가로축과 세로축을 기준으로 직선을 그린다.
+				
+				CvScalar(Bule,Grenn,Red) BGR의 순서인것에 유의한다.*/
+		}
+	}
+}
+```
+
+
+
+아마도 다시 이 코드를 수정한다면 전부 갈아엎고 C++에 맞춰 
+
+
+
 
 ### 3_1 윈프
 ---
