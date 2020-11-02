@@ -50,7 +50,24 @@
 
 링크를 통해 코드를 보면 1학년때라 그런지 주석도 없고 수정 사항이 몇몇 보이긴 하지만 당시엔 코드를 통해 무언가 결과를 도출해내는 성취감에 만족하면서 진행했었습니다.
 
+```python
+import turtle           # turtle 모듈
+tur = turtle.Turtle()   # 변수에 turtle 객체 저장
 
+tur.shape('turtle')     # 거북이 모양 뿐만 아니라 
+                        # 'classic' : 화살표, 'triangle' : 삼각형 등이 있습니다.
+
+tur.color('blue')       # 색깔 변경 
+
+tur.penup()             # penup 하면 그리지 않는 형태
+tur.pendown()           # pendown 하면 그리는 형태
+
+tur.forward(100)        # 현재 방향대로 100 만큼 전진
+
+tur.right(180)          # 오른쪽으로 180도 회전
+tur.hideturtle()        # 그리기 포인터 숨기기
+```
+실제로 사용한 함수는 적은편이고 코드도 짧은 편이네요.
 
 ### 1_2 java calculator
 ---
