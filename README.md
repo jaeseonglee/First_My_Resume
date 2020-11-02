@@ -1,6 +1,6 @@
 # 이력서
 
-![alt image](resume_image)
+![alt text](resume_image.png)
 
 한림대학교 빅데이터전공 이재성
 > - __E-mail__
