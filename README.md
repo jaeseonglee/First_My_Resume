@@ -46,10 +46,13 @@
 
 - [1_1_python](https://github.com/jaeseonglee/1_1_python)
 
-2016년 1학년, python을 배우며 turtle 모듈을 통해 여러 그림을 그렷던 프로젝트입니다.
+2016년 1학년, python을 배우며 turtle 모듈을 통해 여러 그림을 그렸던 프로젝트입니다.
 
 링크를 통해 코드를 보면 1학년때라 그런지 주석도 없고 수정 사항이 몇몇 보이긴 하지만 당시엔 코드를 통해 무언가 결과를 도출해내는 성취감에 만족하면서 진행했었습니다.
 
+실제로 사용한 함수는 적은 편이고 코드도 짧은 편이라고 생각합니다.
+
+아래는 당시 사용했던 코드를 일부 정리했습니다.
 ```python
 import turtle           # turtle 모듈
 tur = turtle.Turtle()   # 변수에 turtle 객체 저장
@@ -67,10 +70,14 @@ tur.forward(100)        # 현재 방향대로 100 만큼 전진
 tur.right(180)          # 오른쪽으로 180도 회전
 tur.hideturtle()        # 그리기 포인터 숨기기
 ```
-실제로 사용한 함수는 적은편이고 코드도 짧은 편이네요.
 
+
+---
 ### 1_2 java calculator
 ---
+
+
+
 
 ### 2_1 image processing(+opencv)
 ---
