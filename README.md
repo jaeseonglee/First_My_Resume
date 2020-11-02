@@ -119,7 +119,7 @@ private void calculate (double n) {
 
 - [Digital_image_processing_final_project](https://github.com/jaeseonglee/2-1-Digital-Image-Processing/blob/master/Final_Project/main.cpp)
 
-위 링크의 코드는 opencv를 응용하기 때문에 `opencv`를 먼저 설치한 후 실행이 가능합니다.
+위 링크의 코드는 opencv를 응용하기 때문에 opencv를 먼저 설치한 후 실행이 가능합니다.
 
 프로그램을 요약하면 주어진 사진을 먼저 보여주고 그 사진을 분할합니다.
 
@@ -165,9 +165,12 @@ void devideImage(Mat img, int num) {		// 영상이 저장된 img와 사용자가
 
 그래도 당연한 얘기겠지만 저학년때 비해서는 많이 실력이 늘었다고 생각합니다.
 
-### 3_2 지금.
+### 3_2 지금 그리고 앞으로
 ---
-현재는 
+스스로의 역량을 키우기 위해 이해하는 것이 중요하다고 생각하기 때문에, 지금까지 그래왔듯이 앞으로도 배우는 것에 최선을 다하고 응용할 수 할 것입니다.
 
-### 
+아직 이력서라고 하기에는 너무나도 부족하지만, 정말 인정받을 만한 수준의 수상 경력과 오픈소스 기여, 프로젝트 이력 등이 이력서를 채워낼 수 있도록 열심히 하겠습니다.
+
 ---
+
+여기까지 이재성의 이력서를 읽어주셔서 감사합니다.
